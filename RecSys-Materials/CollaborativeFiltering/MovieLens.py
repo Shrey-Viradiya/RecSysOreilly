@@ -15,6 +15,9 @@ class MovieLens:
     name_to_movieID = {}
     ratingsPath = '../ml-latest-small/ratings.csv'
     moviesPath = '../ml-latest-small/movies.csv'
+
+    # ratingsPath = '../GBD/ratings.csv'
+    # moviesPath = '../GBD/books.csv'
     
     def loadMovieLensLatestSmall(self):
 
